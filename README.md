@@ -1,6 +1,6 @@
 # ADS Assignment 4: Graph, BFS and DFS Algorithms
 
-## Student: Aitmukhanbet Nazerke
+## Student: A. Nazerke
 ## Course: Algorithms and Data Structures
 
 ## Overview
@@ -9,5 +9,3 @@ This project implements a complete graph toolkit with BFS and DFS algorithms. It
 - BFS with shortest path finding
 - DFS (recursive and iterative) with cycle detection
 - Maze solver application using BFS
-
-## Project Structure
