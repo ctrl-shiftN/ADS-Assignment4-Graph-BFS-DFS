@@ -35,6 +35,8 @@ chmod +x scripts/compile.sh
 
 # Compile the project
 ./scripts/compile.sh
+
+
 Running the Program
 bash
 # Make script executable
@@ -48,6 +50,8 @@ chmod +x scripts/run.sh
 
 # Option 3: Run tests (requires JUnit)
 ./scripts/run.sh 3
+
+
 Running Individual Classes
 bash
 # Compile first (if not already compiled)
@@ -61,6 +65,8 @@ java -cp build applications.MazeSolver
 
 # Run specific test (example)
 java -cp build:lib/junit.jar org.junit.runner.JUnitCore GraphTest
+
+
 Neighbor Ordering
 For deterministic output as required by the assignment, neighbors are ordered using:
 
