@@ -153,11 +153,11 @@ Complexity: O(rows × cols) time and space
 
 Complexity Analysis
 Operation	Adjacency List	Adjacency Matrix
-Add Vertex	O(1)	        O(	V	²)
-Add Edge	  O(1)	        O(1)
+Add Vertex	O(1)	        O(V	²)
+Add Edge	 O(1)	        O(1)
 Remove Edge	O(deg(v))	    O(1)
 Check Edge	O(deg(v))	    O(1)
-BFS/DFS	    O(	V	+	E	)	  O(	V	²)
-Memory	    O(	V	+	E	)  	O(	V	²)
+BFS/DFS	    O(V	+	E		  vO(V	²)
+Memory	    O(V	+	E)  	vO(V	²)
 
 Maze Solver: O(rows × cols) for grid to graph conversion + O(|V| + |E|) for BFS.
