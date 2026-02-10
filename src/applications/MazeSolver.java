@@ -166,23 +166,4 @@ public class MazeSolver {
             printMazeWithPath(maze, path);
         }
     }
-}    public List<Cell> solveMaze(char[][] grid, Cell start, Cell target) {
-        // Build graph from grid
-        Graph<Cell> graph = buildGraphFromGrid(grid);
-        
-        // Use BFS to find shortest path
-        ShortestPath<Cell> shortestPath = new ShortestPath<>();
-        return shortestPath.shortestPathUnweighted(graph, start, target);
-    }
-    
-    private Graph<Cell> buildGraphFromGrid(char[][] grid) {
-        // Implementation would convert grid to graph
-        // For now, return null as placeholder
-        return null;
-    }
-    
-    public static void main(String[] args) {
-        System.out.println("Maze Solver - Part D Application");
-        // Example usage
-    }
 }
